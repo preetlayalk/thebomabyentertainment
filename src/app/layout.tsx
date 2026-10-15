@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Sans } from "next/font/google";
+import logo from "../assets/brand/bombay-logo.png";
 import "./globals.css";
 
 const sans = Instrument_Sans({ subsets: ["latin"], display: "swap" });
@@ -8,6 +9,10 @@ export const metadata: Metadata = {
   title: "The Bombay Entertainment | Coming Soon",
   description: "The Bombay Entertainment is launching soon.",
   applicationName: "The Bombay Entertainment",
+  icons: {
+    icon: logo.src,
+    apple: logo.src,
+  },
 };
 
 export const viewport: Viewport = {

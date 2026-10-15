@@ -1,8 +1,8 @@
 :root {
-  --ink: #0e0d0b;
-  --bone: #f4eee3;
-  --brass: #c9a35c;
-  --mute: #a39b8c;
+  --ink: #f4eee3;
+  --bone: #211916;
+  --brass: #6b1809;
+  --mute: #675c53;
 }
 
 * {
@@ -32,18 +32,10 @@ body {
   background: radial-gradient(ellipse at 50% 120%, rgb(201 163 92 / 0.18), transparent 60%);
 }
 
-.mark {
-  width: 3.5rem;
-  color: var(--brass);
-  margin-bottom: 2rem;
-}
-
-.eyebrow {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-  color: var(--brass);
+.logo {
+  width: min(70vw, 20rem);
+  height: auto;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
